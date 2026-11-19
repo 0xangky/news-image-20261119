@@ -1,1 +1,4 @@
 out/
+bundle-*.txt
+bundle-*.json
+chrome-err.txt
