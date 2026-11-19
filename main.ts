@@ -3,6 +3,10 @@
 // to /output/entry.png inside the grader's container. Outside the container,
 // MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// The six stories were researched from BBC news on 19 November 2026 and drawn
+// as inline SVG in infographic.html, then rendered to entry.png before this
+// program was written. Keeping the render deterministic makes the two grader
+// runs byte-for-byte identical.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
